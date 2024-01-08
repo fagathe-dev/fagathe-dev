@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Quicksand:wght@400;500&display=swap');
+
+$font-size: 15px;
+$font-color: #0f172a;
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+  font-size: $font-size;
+  color: $font-color;
+}
+
+small,
+.small {
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 600;
+}
+
+h1,
+.h1 {
+  font-size: 40px;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+}
+
+h3,
+.h3 {
+  font-size: 28px;
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+}
+
+h5,
+.h5 {
+  font-size: 20px;
+}
+
+h6,
+.h6 {
+  font-size: 16px;
+}
+
+.lead {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+[class^='display'] {
+  font-weight: 400;
+}
+
+.display-1 {
+  font-size: 60px;
+}
+
+.display-2 {
+  font-size: 50px;
+}
+
+.display-3 {
+  font-size: 40px;
+}
+
+.display-4 {
+  font-size: 35px;
+}
+
+.display-5 {
+  font-size: 30px;
+}
+
+.display-6 {
+  font-size: 25px;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-tertiary {
+  color: $tertiary;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-default {
+  color: $font-color;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
